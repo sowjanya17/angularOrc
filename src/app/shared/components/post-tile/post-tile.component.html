@@ -1,0 +1,11 @@
+<mat-card>
+    <img mat-card-image src="{{posts.featured_img}}" alt="oracleDesigns">
+    <mat-card-content>
+        <mat-card-title class='mat-overflow-ellipse'>{{posts.title}}</mat-card-title>
+        <mat-card-subtitle class='mat-overflow-ellipse'>{{posts.body}}</mat-card-subtitle>
+    </mat-card-content>
+    <div class="upVote" (click)="upVote(posts)">
+        <mat-icon class="icon">thumb_up</mat-icon><br />
+        <span class='badge badge-warning' id='lblCartCount'>{{posts.upvote}} Likes</span>
+    </div>
+</mat-card>

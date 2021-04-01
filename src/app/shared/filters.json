@@ -1,0 +1,110 @@
+{
+    "regions": [
+        {
+            "value": "JAPAC",
+            "selected": false,
+            "module": "regions",
+            "index":0
+        },
+        {
+            "value": "ASEAN",
+            "selected": false,
+            "module": "regions",
+            "index":1
+        },
+        {
+            "value": "ANZ",
+            "selected": false,
+            "module": "regions",
+            "index":2
+        },
+        {
+            "value": "Korea",
+            "selected": false,
+            "module": "regions",
+            "index":3
+        },
+        {
+            "value": "India",
+            "selected": false,
+            "module": "regions",
+            "index":4
+        },
+        {
+            "value": "China",
+            "selected": false,
+            "module": "regions",
+            "index":5
+        },
+        {
+            "value": "Japan",
+            "selected": false,
+            "module": "regions",
+            "index":6
+        },
+        {
+            "value": "HKTW",
+            "selected": false,
+            "module": "regions",
+            "index":7
+        }
+    ],
+    "lobs": [
+        {
+            "value": "APPS",
+            "selected": false,
+            "module": "lobs",
+            "index":0
+        },
+        {
+            "value": "Systems",
+            "selected": false,
+            "module": "lobs",
+            "index":1
+        },
+        {
+            "value": "TECH",
+            "selected": false,
+            "module": "lobs",
+            "index":2
+        },
+        {
+            "value": "Consuting",
+            "selected": false,
+            "module": "lobs",
+            "index":3
+        }
+    ],
+    "assetType": [
+        {
+            "value": "Videos",
+            "selected": false,
+            "module": "assetType",
+            "index":0
+        },
+        {
+            "value": "Webpage",
+            "selected": false,
+            "module": "assetType",
+            "index":1
+        },
+        {
+            "value": "Photos",
+            "selected": false,
+            "module": "assetType",
+            "index":2
+        },
+        {
+            "value": "Documents",
+            "selected": false,
+            "module": "assetType",
+            "index":3
+        },
+        {
+            "value": "Links",
+            "selected": false,
+            "module": "assetType",
+            "index":4
+        }
+    ]
+}

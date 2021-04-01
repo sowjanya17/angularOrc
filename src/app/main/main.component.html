@@ -1,0 +1,26 @@
+<div>
+ Discover <tag-input [(ngModel)]="itemsAsObjects" [displayBy]="'value'" [onRemoving]="onRemove" [secondaryPlaceholder]="''"></tag-input>
+</div>
+<div class="row">
+    <div class="col-md-12">
+        <div class="col-md-4" *ngFor="let item of regionArray">
+            <app-check-box [checkBoxLabel]="item" (checkBoxSelect)="checkBoxSelect($event)"></app-check-box>
+        </div>
+        <div class="col-md-4" *ngFor="let item of lobArray">
+            <app-check-box [checkBoxLabel]="item" (checkBoxSelect)="checkBoxSelect($event)"></app-check-box>
+        </div>
+        <div class="col-md-4" *ngFor="let item of assetTypeArray">
+            <app-check-box [checkBoxLabel]="item" (checkBoxSelect)="checkBoxSelect($event)"></app-check-box>
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div fxLayout="row wrap" fxLayoutGap="16px grid">
+        <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlex.lg="25%" fxFlex.md="25%"
+            *ngFor="let item of displayTiles">
+            <app-post-tile [posts]="item" (upVoteItem)="upvote($event)"></app-post-tile>
+
+        </div>
+    </div>
+    <button mat-button (click)="displayRecords()" disabled="{{disableLoad}}">Load More</button>
+</div>

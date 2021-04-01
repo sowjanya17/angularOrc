@@ -1,0 +1,21 @@
+.mat-button{
+    color: white;
+    background-color: #699e68;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 50%;
+    margin-top:50px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  .content {
+    padding: 16px;
+  }
+  form{
+    display: none !important;
+  }
+  .ng2-tag-input__text-input{
+    display: none !important;
+  }
