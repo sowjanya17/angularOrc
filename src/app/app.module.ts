@@ -17,7 +17,7 @@ import {MatCheckboxModule} from '@angular/material/checkbox';
 import { TagInputModule } from 'ngx-chips';
 import { FormsModule }    from '@angular/forms';
 import { CheckBoxComponent } from './shared/components/check-box/check-box.component';
-
+import { MatMenuModule } from '@angular/material/menu';
 
 
 
@@ -42,7 +42,8 @@ import { CheckBoxComponent } from './shared/components/check-box/check-box.compo
     MatChipsModule,
     MatCheckboxModule,
     TagInputModule,
-    FormsModule
+    FormsModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]

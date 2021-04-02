@@ -1,109 +1,109 @@
 {
-    "regions": [
+    "region": [
         {
             "value": "JAPAC",
             "selected": false,
-            "module": "regions",
+            "module": "region",
             "index":0
-        },
-        {
-            "value": "ASEAN",
-            "selected": false,
-            "module": "regions",
-            "index":1
-        },
-        {
-            "value": "ANZ",
-            "selected": false,
-            "module": "regions",
-            "index":2
-        },
-        {
-            "value": "Korea",
-            "selected": false,
-            "module": "regions",
-            "index":3
         },
         {
             "value": "India",
             "selected": false,
-            "module": "regions",
-            "index":4
+            "module": "region",
+            "index":1
+        },
+        {
+            "value": "ASEAN",
+            "selected": false,
+            "module": "region",
+            "index":2
         },
         {
             "value": "China",
             "selected": false,
-            "module": "regions",
-            "index":5
+            "module": "region",
+            "index":3
+        },
+        {
+            "value": "ANZ",
+            "selected": false,
+            "module": "region",
+            "index":4
         },
         {
             "value": "Japan",
             "selected": false,
-            "module": "regions",
+            "module": "region",
+            "index":5
+        },
+        {
+            "value": "Korea",
+            "selected": false,
+            "module": "region",
             "index":6
         },
         {
             "value": "HKTW",
             "selected": false,
-            "module": "regions",
+            "module": "region",
             "index":7
         }
     ],
-    "lobs": [
+    "lob": [
         {
             "value": "APPS",
             "selected": false,
-            "module": "lobs",
+            "module": "lob",
             "index":0
-        },
-        {
-            "value": "Systems",
-            "selected": false,
-            "module": "lobs",
-            "index":1
         },
         {
             "value": "TECH",
             "selected": false,
-            "module": "lobs",
+            "module": "lob",
+            "index":1
+        },
+        {
+            "value": "Systems",
+            "selected": false,
+            "module": "lob",
             "index":2
         },
         {
             "value": "Consuting",
             "selected": false,
-            "module": "lobs",
+            "module": "lob",
             "index":3
         }
     ],
-    "assetType": [
+    "type": [
         {
             "value": "Videos",
             "selected": false,
-            "module": "assetType",
+            "module": "type",
             "index":0
-        },
-        {
-            "value": "Webpage",
-            "selected": false,
-            "module": "assetType",
-            "index":1
-        },
-        {
-            "value": "Photos",
-            "selected": false,
-            "module": "assetType",
-            "index":2
         },
         {
             "value": "Documents",
             "selected": false,
-            "module": "assetType",
-            "index":3
+            "module": "type",
+            "index":1
+        },
+        {
+            "value": "Webpage",
+            "selected": false,
+            "module": "type",
+            "index":2
         },
         {
             "value": "Links",
             "selected": false,
-            "module": "assetType",
+            "module": "type",
+            "index":3
+        },
+        {
+            "value": "Photos",
+            "selected": false,
+            "module": "type",
             "index":4
         }
     ]
