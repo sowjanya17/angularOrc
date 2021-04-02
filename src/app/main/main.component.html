@@ -1,12 +1,15 @@
 <div class="container">
 <div class="displayFilters">
-    Discover <tag-input [(ngModel)]="filterObject" [displayBy]="'value'" [onRemoving]="onRemove"
-        [secondaryPlaceholder]="''">
+    <div class="filter-head mr-20">Discover</div>
+    <div>
+        <tag-input [(ngModel)]="filterObject" [displayBy]="'value'" [onRemoving]="onRemove"
+        [secondaryPlaceholder]="''"></tag-input>
+    </div>
+    <div class="ml-auto">
         <button class='filterSelect' mat-button (click)="showFilters()">SELECT FILTER</button>
-    </tag-input>
-
+    </div>  
 </div>
-<div class="filterSection" *ngIf='showFilter'>
+<div class="filterSection" *ngIf='showFilter' [@inOutAnimation]>
     <div class="filters">
         <label class="filterLabel">Regions</label>
         <div class="filterItems" *ngFor="let item of regionArray">
@@ -26,18 +29,18 @@
         </div>
     </div>
     <div class="submitSection">
-        <button mat-button class="submitFilter" (click)="displayFilteredRecords()">Submit</button>
+        <button mat-button class="submitFilter mt-50" (click)="displayFilteredRecords()">Submit</button>
     </div>
 </div>
 
-<div class="content">
+<div class="content" >
     <div fxLayout="row wrap" fxLayoutGap="16px grid">
         <div fxFlex="25%" fxFlex.xs="100%" fxFlex.sm="33%" fxFlex.lg="25%" fxFlex.md="25%"
-            *ngFor="let item of displayTiles">
+            *ngFor="let item of displayTiles"  [@inOutAnimation]>
             <app-post-tile [posts]="item" (upVoteItem)="upvote($event)"></app-post-tile>
 
         </div>
     </div>
-    <button mat-button (click)="displayRecords()" disabled="{{disableLoad}}">Load More</button>
+    <button mat-button (click)="displayRecords()" class="mt-50" disabled="{{disableLoad}}">Load More</button>
 </div>
 </div>

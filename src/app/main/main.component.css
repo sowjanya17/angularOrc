@@ -5,7 +5,6 @@
     justify-content: center;
     position: relative;
     left: 50%;
-    margin-top:50px;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
@@ -18,13 +17,17 @@
     background-color: #403d38;
     color: white;
     padding: 15px 10px 10px 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   .filterLabel{
     color: #fecc49;
     font-weight: 500;
-    margin-bottom: 12px;
+    margin-bottom: 20px;
     display: block;
     width: 100%;
+
   }
   .filterItems {
     width: 50%;
@@ -40,7 +43,7 @@
 }
   
   .container {
-    padding: 20px;
+    padding: 6%;
     display: flex;
     flex-wrap: wrap;
   }
@@ -48,7 +51,7 @@
 .filters {
   width: 30%;
   float: left;
-  padding: 0 20px 0 20px;
+  padding: 0 20px 20px 20px;
   display: flex;
   flex-wrap: wrap;
   align-content: flex-start;
@@ -71,6 +74,9 @@
   background-color: white;
   color: black;
   width: 100%;
+  display: flex;
+  padding: 25px;
+  flex-wrap: wrap;
 }
 .filterSelect{
   background-image: url('../../assets/images/drop-down-arrow.png');
@@ -78,4 +84,43 @@
   background-repeat: no-repeat;
   color: #699e68;
   background-position: right;
+  transform: none;
+  left:0;
+  font-size: 18px;
+  line-height: 50px;
+  padding-left: 0;
 }
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.ml-auto{
+  margin-left: auto;
+}
+
+.filter-head{
+  line-height: 45px;
+  font-size: 25px;
+  display: block;
+}
+
+.mr-20{
+  margin-right: 20px;
+}
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .filters {
+    width: 100%;
+  }
+
+  .ml-auto{
+    margin-left: 0;
+  }
+
+}
+
