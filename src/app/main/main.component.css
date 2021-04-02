@@ -11,12 +11,13 @@
   }
 
   .content {
-    padding: 16px;
+    padding: 20px 0;
   }
   
   .filterSection{
     background-color: #403d38;
     color: white;
+    padding: 15px 10px 10px 10px;
   }
   .filterLabel{
     color: #fecc49;
@@ -69,6 +70,7 @@
 .displayFilters{
   background-color: white;
   color: black;
+  width: 100%;
 }
 .filterSelect{
   background-image: url('../../assets/images/drop-down-arrow.png');

@@ -1,3 +1,4 @@
+<div class="container">
 <div class="displayFilters">
     Discover <tag-input [(ngModel)]="filterObject" [displayBy]="'value'" [onRemoving]="onRemove"
         [secondaryPlaceholder]="''">
@@ -5,7 +6,7 @@
     </tag-input>
 
 </div>
-<div class="container filterSection" *ngIf='showFilter'>
+<div class="filterSection" *ngIf='showFilter'>
     <div class="filters">
         <label class="filterLabel">Regions</label>
         <div class="filterItems" *ngFor="let item of regionArray">
@@ -38,4 +39,5 @@
         </div>
     </div>
     <button mat-button (click)="displayRecords()" disabled="{{disableLoad}}">Load More</button>
+</div>
 </div>
